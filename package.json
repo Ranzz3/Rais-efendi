@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-tools",
+  "version": "3.0.0",
+  "description": "Advanced Telegram Bot with 53+ Tools including CWEB HTML Copier with Loading Box",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "moment": "^2.29.4",
+    "qrcode": "^1.5.3",
+    "jimp": "^0.22.10",
+    "qrcode-reader": "^1.0.4",
+    "express": "^4.18.2"
+  }
+}
